@@ -25,6 +25,10 @@ header {
     border-bottom: 1px solid #e5e5e5;
 }
 
+ol, ul {
+    list-style-position: inside;
+}
+
 .container {
     width: min(1100px, 90%);
     margin: 0 auto;
@@ -145,6 +149,10 @@ h1 {
 
 .card:nth-child(3) {
     border-top: 4px solid var(--orange);
+}
+
+.card:nth-child(4) {
+    border-top: 4px solid var(--rose);
 }
 
 footer {
