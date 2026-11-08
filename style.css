@@ -109,6 +109,10 @@ section {
     border-top: 4px solid var(--rose);
 }
 
+.card:nth-child(4) {
+    border-top: 4px solid var(--dark);
+}
+
 .card-link {
   align-self: flex-start;
   margin-top: auto;
